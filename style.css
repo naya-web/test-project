@@ -1,0 +1,26 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: #c30303;
+    margin: 200px;
+    transform: rotate(45deg);
+    position: relative;
+}
+div::after{
+    content: "";
+    width: 100px;
+    height: 100px;
+    background-color: #c30303;
+    position: absolute;
+    border-radius: 50%;
+    top: -50px;
+}
+div::before{
+    content: "";
+    width: 100px;
+    height: 100px;
+    background-color: #c30303;
+    position: absolute;
+    border-radius: 50%;
+    right: 50px;
+}
